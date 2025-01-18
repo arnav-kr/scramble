@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <canvas id="cv"></canvas>
+  <form id="f">
+    <div>
+      <label for="im" class="lb">Choose an Image</label>
+      <input type="file" accept="image/*" id="im" name="im" class="im" />
+    </div>
+    <button class="b" type="submit">Run</button>
+    <div hidden id="ac">
+      <button class="b" id="di">Download Image</button>
+      <button class="b" id="dd">Dowload Pixel Data</button>
+    </div>
+  </form>
+  <script src="/src/main.js" type="module"></script>
+</body>
+
+</html>
